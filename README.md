@@ -1,7 +1,7 @@
 # Template for Maven based exercises
 
-[![build workflow](https://github.com/thomas-mrx/maven_starter_template/actions/workflows/build.yml/badge.svg)](https://github.com/thomas-mrx/maven_starter_template/actions)
-[![codecov](https://codecov.io/gh/thomas-mrx/maven_starter_template/branch/main/graph/badge.svg)](https://codecov.io/gh/thomas-mrx/maven_starter_template)
+[![build workflow](https://github.com/thomas-mrx/amqp_training/actions/workflows/build.yml/badge.svg)](https://github.com/thomas-mrx/amqp_training/actions)
+[![codecov](https://codecov.io/gh/thomas-mrx/amqp_training/branch/main/graph/badge.svg)](https://codecov.io/gh/thomas-mrx/amqp_training)
 
 ## Build the project
 

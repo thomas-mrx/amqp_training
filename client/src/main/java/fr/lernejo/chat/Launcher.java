@@ -6,6 +6,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import java.util.Scanner;
 
+import static java.lang.System.exit;
+
 @SpringBootApplication
 public class Launcher {
     public static void main(String[] args) {
@@ -27,5 +29,6 @@ public class Launcher {
             }
         } while (!quit);
         System.out.println("Bye");
+        exit(0);
     }
 }

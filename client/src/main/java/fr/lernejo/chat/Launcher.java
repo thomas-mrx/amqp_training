@@ -10,9 +10,9 @@ import java.util.Scanner;
 public class Launcher {
     public static void main(String[] args) {
 
-        String message = "";
+        String message;
         Scanner scanner = new Scanner(System.in);
-        boolean quit = false;
+        boolean quit;
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(Launcher.class);
         RabbitTemplate rabbitTemplate = context.getBean(RabbitTemplate.class);
         rabbitTemplate.setRoutingKey("chat_messages");
